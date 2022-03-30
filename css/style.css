@@ -1,0 +1,107 @@
+* {
+    font-family:'Josefin Sans', Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0)),
+        url(../img/background-image-3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.logo-color {
+    color: #4447b5;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-right: 8%;
+    padding-left: 8%;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav li a:hover {
+    color: #4447b5;
+    transition: .4s;
+}
+
+.button {
+    background-color: #4447b5;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius:  30px;
+    transition: transform .4s;   
+}
+
+.button:hover {
+    transform: scale(1.2);
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50);
+}
+
+.myName {
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+
+.myJob {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+#hello {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.newsletter form {
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+.newsletter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+}
