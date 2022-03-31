@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1b5c026b1a.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="">
@@ -16,7 +17,7 @@
 <body>
     <header>
         <nav>
-            <h2 class="logo">Alexis <span class="logo-color">Delahaye</span></h2>
+            <h1 class="logo">Alexis <span class="logo-color">Delahaye</span></h1>
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About me</a></li>
@@ -24,13 +25,13 @@
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
-            <a href="#" class="button">GitHub</a>
+            <a href="#" class="button scale-up">GitHub</a>
         </nav>
 
         <div class="content">
-            <div id="hello">Hello, my name is</div>
-            <h1 class="myName">Alexis Delahaye</h1>
-            <h1 class="myJob">I am a web developer</h1>
+            <div class="content-pretext">Hello, my name is</div>
+            <h1>Alexis <span class="logo-color">Delahaye</span></h1>
+            <h2>I am a web developer</h2>
             <div class="newsletter">
                 <form action="">
                     <input type="email" name="email" id="mail" placeholder="Your email here">
@@ -38,7 +39,94 @@
                 </form>
             </div>
         </div>
-
     </header>
+
+<!-- About section -->
+    
+    <section class="about">
+        <div class="main">
+            <img src="img/tana-img.jpg" alt="Tana"/>
+            <div class="about-text">
+                <h1>About Me</h1>
+                <h2>On my way to be a <span class="JS-yellow">Javascript Developer</span></h2>
+                <p>
+                    I am a self-taught web developer. I'll maybe take some training soon to perfect my code but for the moment,I'm learning everything by myself.
+                    I don't know which codding goal to chose but I'm having fun with Javascript for the moment.
+                </p>
+                <button type="button" class="button transparent">Let's Talk</button>
+            </div>
+        </div>
+    </section>
+
+<!-- Services section -->
+
+    <section class="services">
+            <h1>My services</h1>
+
+        <div class="box">
+            
+            <div class="card">
+                <i class="fas fa-bars"></i>
+                <h2>Web development</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Accusamus molestiae voluptatum sequi obcaecati, culpa, dolorem, qui quo et delectus
+                    rerum at dicta iure enim vitae tenetur illum ducimus veniam. Reprehenderit?
+                </p>
+                <p style="text-align: center;">
+                    <a class="button transparent" href="#">Read More</a>
+                </p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-user"></i>
+                <h2>Web development</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Accusamus molestiae voluptatum sequi obcaecati, culpa, dolorem, qui quo et delectus
+                    rerum at dicta iure enim vitae tenetur illum ducimus veniam. Reprehenderit?
+                </p>
+                <p style="text-align: center;">
+                    <a class="button transparent" href="#">Read More</a>
+                </p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-earth-europe"></i>
+                <h2>Web development</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Accusamus molestiae voluptatum sequi obcaecati, culpa, dolorem, qui quo et delectus
+                    rerum at dicta iure enim vitae tenetur illum ducimus veniam. Reprehenderit?
+                </p>
+                <p style="text-align: center;">
+                    <a class="button transparent" href="#">Read More</a>
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+<!-- Contact Me -->
+
+    <section class="contact-me">
+        <p>Let me take care of your web projet</p>
+        <a class="button transparent" href="#">Hire me</a>
+    </section>
+
+<!-- Footer -->
+
+    <footer>
+        <p>Alexis Delahaye</p>
+        <p>Want to see my other projects ?</p>
+        <p>Feel free to go to my Github !</p>
+        <div class="social">
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <p class="end">Copyright by Alexis Delahaye</p>
+    </footer>
 </body>
 </html>
