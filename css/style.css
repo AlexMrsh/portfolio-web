@@ -81,7 +81,7 @@ header .button {
 
 .content h1 {
     color: white;
-    margin: 20px 0px 20px;
+    margin: 20px 0px;
     font-size: 75px;
 }
 
@@ -107,6 +107,7 @@ header .button {
     display: inline-block;
     width: 100%;
     padding: 14px 130px 14px 15px;
+    text align ???
     border: 2px solid #4447b5;
     outline: none;
     border-radius: 30px;
@@ -135,11 +136,12 @@ header .button {
 
 .about img {
     height: auto;
-    width: 430px;
+    max-width: 430px;
 }
 
 .about-text {
     width: 550px;
+    margin: 50px;
 }
 
 .main {
@@ -200,7 +202,6 @@ header .button {
 .services h1 {
     color: white;
     font-size: 75px;
-    width: 1130px;
     margin: 30px auto;
     text-align: center;
 }
@@ -221,7 +222,7 @@ header .button {
     margin: 15px;
     position: relative;
     overflow: hidden;
-    text-align: center;
+    text-align: justify;
 }
 
 .card i {
@@ -326,4 +327,21 @@ footer p:nth-child(2) {
     color: #4447b5;
     bottom: 35px;
     font-size: 14px;
+}
+
+        /* Media Querries */
+
+@media only screen and (max-width: 900px) {
+    
+    .box {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 80%;
+        height: 350px;
+    }
+    .about img {
+        max-width: 50%;
+    }    
 }
